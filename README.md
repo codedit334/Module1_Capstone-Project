@@ -33,9 +33,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio_Microverse] <a name="about-project"></a>
+# 📖 [Capstone Project 1] <a name="about-project"></a>
 
-Portfolio_Microverse is my opportunity to put what i've learned during module 1 in practice.
+All In Campsters is my opportunity to put what i've learned during module 1 in practice.
 
 ## 🛠 Built With <a name="built-with"></a>
 HTML, CSS, NodeJS
@@ -79,7 +79,7 @@ HTML, CSS, NodeJS
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
--Link: https://codedit334.github.io/.
+-Link: (https://codedit334.github.io/Module1_Capstone-Project/index.html)[https://codedit334.github.io/Module1_Capstone-Project/index.html].
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

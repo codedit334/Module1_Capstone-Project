@@ -84,6 +84,7 @@ nav > ul {
 
 .menu a {
   text-decoration: none;
+  color: gray;
 }
 
 .menu li {
@@ -578,6 +579,10 @@ footer {
 .menu a:visited {
   color: inherit;
 }
+.menu a:focus {
+  color: inherit;
+}
+
 
 /* Media Queries */
 @media screen and (min-width: 768px) {
