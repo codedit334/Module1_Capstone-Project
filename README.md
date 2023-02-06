@@ -86,7 +86,7 @@ HTML, CSS, NodeJS
 
 <!-- VIDEO DESCRIPTION -->
 
-## 🚀 Video Description <a name="video-description"></a>
+## 🎥 Video Description <a name="video-description"></a>
 
 -Here is the [video](https://www.loom.com/share/b4c088c829ef462fa65b03153d6aaa35) description of the project.
 
