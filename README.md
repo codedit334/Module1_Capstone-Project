@@ -88,7 +88,7 @@ HTML, CSS, NodeJS
 
 ## 🚀 Video Description <a name="video-description"></a>
 
--Here is the [video](https://www.loom.com/share/b4c088c829ef462fa65b03153d6aaa35) descritpion of the project.
+-Here is the [video](https://www.loom.com/share/b4c088c829ef462fa65b03153d6aaa35) description of the project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,6 +138,10 @@ To check for html errors run:
 To check for css errors run:
 ```sh
   npx stylelint "**/*.{css,scss}"
+```
+To check for js errors run:
+```sh
+  npx eslint .
 ```
 
 ### Deployment
