@@ -164,6 +164,7 @@ nav > ul {
   background-position-y: -7vh;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  background-clip: text;
   z-index: 1000 !important;
 }
 
