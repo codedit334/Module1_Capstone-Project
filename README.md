@@ -16,6 +16,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [🎥 Video Description](#video-description)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -80,6 +81,14 @@ HTML, CSS, NodeJS
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 -Link: (https://codedit334.github.io/Module1_Capstone-Project/index.html)[https://codedit334.github.io/Module1_Capstone-Project/index.html].
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- VIDEO DESCRIPTION -->
+
+## 🚀 Video Description <a name="video-description"></a>
+
+-Here is the [video](https://www.loom.com/share/b4c088c829ef462fa65b03153d6aaa35) descritpion of the project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
