@@ -9,6 +9,7 @@
 * {
   margin: 0;
   padding: 0;
+
   /* box-sizing: border-box; */
 }
 
@@ -33,7 +34,7 @@ body {
   height: 140px;
   z-index: -2 !important;
   left: 0;
-  top: 0vh;
+  top: 0;
   opacity: 0.08;
 }
 
@@ -42,6 +43,7 @@ body {
   width: 100%;
   opacity: 0.85;
   padding-bottom: 10px;
+
   /* z-index: 1000; */
 }
 
@@ -69,6 +71,7 @@ nav > ul {
   color: white;
   background-color: #272a31;
 }
+
 .menu.active-menu {
   position: fixed;
   z-index: 5000;
@@ -83,21 +86,12 @@ nav > ul {
   text-decoration: none;
 }
 
-.menu a:visited {
-  color: inherit;
-}
-
 .menu li {
   display: inline-block;
   margin: 30px;
   list-style: none;
   font-size: 280%;
   cursor: pointer;
-}
-
-.menu li:nth-child(2),
-.menu li:nth-child(3) {
-  margin-top: 100px;
 }
 
 .x {
@@ -123,7 +117,7 @@ nav > ul {
   height: 300px;
   z-index: -1 !important;
   left: 0;
-  bottom: 0vh;
+  bottom: 0;
 }
 
 #hero::after,
@@ -210,6 +204,7 @@ nav > ul {
   color: white;
   padding-bottom: 40px;
 }
+
 .program-title,
 .instructors-title,
 .partner-title {
@@ -241,20 +236,8 @@ nav > ul {
   align-items: center;
   gap: 15px;
   padding: 12px;
-  margin: auto;
   margin-top: 10px;
   opacity: 0.8;
-}
-.program-items li img {
-  width: 50px;
-}
-.program-items li h4 {
-  color: var(--orange);
-  text-align: center;
-}
-
-.program-items li p {
-  margin: 0 0 0 10px;
 }
 
 .program-button {
@@ -273,27 +256,27 @@ nav > ul {
   outline: none;
 }
 
-.program-button button:hover {
-  color: var(--orange);
-  background-color: white;
-}
+
 
 /* Featured instructors */
 .featured-instructors-list {
   width: 90%;
   margin: auto;
 }
+
 .featured-instructors-list > li {
   display: flex;
   gap: 20px;
   margin: 20px 0 0 10px;
 }
+
 .featured-instructors-list > li:nth-child(3),
 .featured-instructors-list > li:nth-child(4),
 .featured-instructors-list > li:nth-child(5),
 .featured-instructors-list > li:nth-child(6) {
   display: none;
 }
+
 .featured-instructors img {
   width: 100px;
   height: 100px;
@@ -309,11 +292,13 @@ nav > ul {
 .instructor h3 {
   font-size: 150%;
 }
+
 .instructor h4 {
   font-size: 110%;
   color: var(--orange);
   font-style: italic;
 }
+
 .instructor span {
   font-size: 90%;
   font-weight: 100;
@@ -321,10 +306,12 @@ nav > ul {
   position: relative;
   bottom: 8px;
 }
+
 .instructors-button {
   width: 90%;
   margin: 40px auto;
 }
+
 .instructors-button button {
   font-size: 110%;
   width: 100%;
@@ -334,29 +321,29 @@ nav > ul {
 }
 
 .instructors-button button:hover {
-  background-color: #eeeeee;
+  background-color: #eee;
 }
 
-.instructors-button button img {
-  width: 24px;
-  position: relative;
-  top: 5px;
-}
+
 
 /* Partner */
 #partner {
   background-color: #414246;
   padding-bottom: 60px;
 }
+
 .partner-title h3 {
   color: white;
 }
+
 .about-partner-title h3 {
   font-weight: 300 !important;
 }
+
 .partner-title span {
   color: var(--orange);
 }
+
 .partners {
   width: 85%;
   height: 100px;
@@ -404,6 +391,7 @@ footer {
   padding-top: 20px;
   padding-bottom: 15px;
 }
+
 .sec1-pt1 h1 {
   font-size: 220%;
   padding-bottom: 35px;
@@ -414,9 +402,11 @@ footer {
   border: 0.5px solid lightgray;
   margin-bottom: 20px;
 }
+
 .sec1-pt2 p {
   padding: 18px;
 }
+
 .sec1-pt3 {
   padding: 0 1px;
   display: flex;
@@ -430,6 +420,7 @@ footer {
   width: 90%;
   margin: auto;
 }
+
 .sec2-pt1,
 .sec2-pt2 {
   color: var(--dark);
@@ -438,26 +429,31 @@ footer {
   align-items: center;
   padding-top: 20px;
 }
+
 .sec2-pt1 h2,
 .sec3-title h2 {
   font-size: 180%;
   font-weight: 500;
   padding-top: 10px;
 }
+
 .sec2-pt1 span,
 .sec3-title span {
   color: var(--orange);
 }
+
 .sec2-pt2 {
   font-size: 100%;
   font-weight: 200;
 }
+
 .sec2-pt3 {
   width: 100%;
   border: 0.5px solid lightgray;
   padding: 40px 0;
   margin: 30px 0 40px 0;
 }
+
 .sec2-pt3 img {
   width: 100%;
 }
@@ -487,6 +483,7 @@ footer {
   color: var(--dark);
   margin-top: 20px;
 }
+
 .sec3-blog img {
   width: 100%;
   height: 200px;
@@ -495,16 +492,20 @@ footer {
   position: relative;
   bottom: 35px;
 }
+
 .blog-img-2 {
   position: relative !important;
   bottom: 70px !important;
 }
+
 .blog-title-1 {
-  transform: translatey(-35px);
+  transform: translateY(-35px);
 }
+
 .blog-title-2 {
-  transform: translatey(-70px);
+  transform: translateY(-70px);
 }
+
 .sec3-blog h3 {
   text-align: center;
   z-index: 5000;
@@ -514,11 +515,13 @@ footer {
   padding: 0 10px;
   font-weight: 600;
 }
+
 .sec3-blog span {
   font-size: 120%;
   font-weight: 900;
   color: #ec5242;
 }
+
 .blog-img-2::after {
   content: "Campground Safety: A Guide for campers";
   color: white;
@@ -529,10 +532,12 @@ footer {
 .logo {
   display: none;
 }
-.logo a{
+
+.logo a {
   text-decoration: none;
   color: inherit;
 }
+
 .program-anchor {
   display: none;
 }
@@ -543,9 +548,44 @@ footer {
   display: none;
 }
 
+/* LINTER REQUESTS */
+.menu li:nth-child(2),
+.menu li:nth-child(3) {
+  margin-top: 100px;
+}
+
+.program-items li img {
+  width: 50px;
+}
+
+.program-items li h4 {
+  color: var(--orange);
+  text-align: center;
+}
+
+.program-items li p {
+  margin: 0 0 0 10px;
+}
+
+.instructors-button button img {
+  width: 24px;
+  position: relative;
+  top: 5px;
+}
+
+.program-button button:hover {
+  color: var(--orange);
+  background-color: white;
+}
+
+.menu a:visited {
+  color: inherit;
+}
+
 /* Media Queries */
 @media screen and (min-width: 768px) {
   /* INDEX */
+
   /* Header */
   .navBar {
     position: absolute;
@@ -558,13 +598,16 @@ footer {
     grid-template-columns: 1fr 2fr 3fr;
     z-index: 10000;
   }
+
   .navBar img {
     width: 200px;
     height: 80px;
   }
+
   .index-header {
     display: none;
   }
+
   .logo {
     display: flex;
     align-items: center;
@@ -579,41 +622,49 @@ footer {
     height: 100px;
     color: gray;
   }
+
   .menu br {
     display: none;
   }
+
   .menu li {
     padding: 0 18px !important;
     margin: 0 !important;
     font-size: 140%;
     cursor: pointer;
   }
+
   .x {
     display: none !important;
   }
-  /* Hero*/
+
+  /* Hero */
   #hero::after,
   #sec1::after {
     background-position-y: -12vh;
     height: 400px;
     width: 300px;
   }
+
   #hero {
     padding-top: 180px;
   }
+
   .hero-wrapper {
-    width: 100%;
     margin: auto;
     margin-left: 14vh;
     width: 77%;
     box-sizing: border-box;
   }
+
   .hero-div-1 br {
     display: block;
   }
+
   .hero-div-1 span {
     display: none;
   }
+
   .hero-div-1 h1 {
     background-position-y: -30vh;
   }
@@ -640,6 +691,7 @@ footer {
   .program-button {
     display: none;
   }
+
   .program-anchor {
     display: block;
     width: 300px;
@@ -649,21 +701,26 @@ footer {
     margin: auto;
     margin-top: 20px;
   }
+
   .program-anchor a {
     font-size: 180%;
     color: inherit;
     cursor: pointer;
   }
+
   /* Staff */
   #instructors {
     padding-bottom: 70px;
   }
+
   .toggle {
     display: flex !important;
   }
+
   .instructors-button {
     display: none;
   }
+
   .featured-instructors-list {
     width: 80%;
     margin: 0 14vh !important;
@@ -671,42 +728,48 @@ footer {
     gap: 0;
     grid-template-columns: 1fr 1fr;
   }
+
   .featured-instructors-list li {
     width: 300px;
   }
+
   /* Staff */
   .partners {
-    width: 100%;
     background: url("../assets/partners-scr.JPG") no-repeat;
-    background-size: contain;
     width: 80%;
     background-size: cover;
   }
 
   /* ABOUT */
+
   /* Section 1 */
   #sec1 {
     padding-top: 80px;
   }
-  .sec1-pt1 h3{
+
+  .sec1-pt1 h3 {
     display: none;
   }
-  .sec1-pt1 h1{
+
+  .sec1-pt1 h1 {
     width: 400px;
     margin: auto;
   }
 
-  .sec1-pt2{
+  .sec1-pt2 {
     width: 69%;
     margin: auto;
     padding: 30px;
     margin-bottom: 20px;
   }
+
   .sec1-pt2 p {
     padding: 4px 0 !important;
     text-align: center;
+
     /* line-height: 2.5pt; */
   }
+
   .sec1-pt2 :nth-child(1),
   .sec1-pt2 :nth-child(2),
   .sec1-pt2 :nth-child(3) {
@@ -719,44 +782,49 @@ footer {
   .sec2-pt2 :nth-child(3) {
     display: block;
   }
-  .sec2-pt2 p{
+
+  .sec2-pt2 p {
     width: 70%;
     text-align: center;
   }
-  .sec2-pt3{
+
+  .sec2-pt3 {
     width: 55%;
     margin: 40px auto;
   }
 
   /* Section3 */
-  .sec3-blog{
+  .sec3-blog {
     display: flex;
     justify-content: space-around;
   }
-  .sec3-blog span{
+
+  .sec3-blog span {
     width: 300px;
   }
-  
+
   .sec3-blog img {
     bottom: 0;
   }
+
   .blog-img-2,
-  .blog-img-1{
-    bottom:30px !important;
+  .blog-img-1 {
+    bottom: 30px !important;
   }
+
   .blog-title-2,
-  .blog-title-1{
-    transform: translate(0px) !important;
+  .blog-title-1 {
+    transform: translate(0) !important;
   }
+
   /* END */
 }
-
-
 
 @media screen and (min-width: 1024px) {
   .program-items-list {
     justify-content: space-between;
   }
+
   /* END */
 }
 
@@ -765,26 +833,31 @@ footer {
   .program-items-list :nth-child(6) {
     display: none !important;
   }
+
   .program-items-list {
     justify-content: space-between !important;
     gap: 10px;
   }
+
   .hero-wrapper,
   .program-items-list,
   .featured-instructors-list {
     margin: 0 23vh !important;
   }
+
   .partners {
     width: 80%;
     background-size: cover;
   }
 
   /* ABOUT */
+
   /* Section 3 */
-  .sec3-blog{
+  .sec3-blog {
     justify-content: center;
     gap: 60px;
   }
+
   /* END */
 }
 
@@ -792,12 +865,15 @@ footer {
 .active {
   color: var(--orange);
 }
+
 .inline {
   display: inline !important;
 }
+
 .flex {
   display: flex !important;
 }
+
 .none {
   display: none !important;
 }
