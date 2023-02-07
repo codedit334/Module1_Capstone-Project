@@ -80,7 +80,7 @@ HTML, CSS, NodeJS
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
--Link: (https://codedit334.github.io/Module1_Capstone-Project/index.html)[https://codedit334.github.io/Module1_Capstone-Project/index.html].
+-Link: [https://codedit334.github.io/Module1_Capstone-Project/index.html](https://codedit334.github.io/Module1_Capstone-Project/index.html).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

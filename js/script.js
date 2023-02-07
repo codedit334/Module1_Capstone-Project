@@ -112,6 +112,10 @@ toggleBtn.addEventListener('click', () => {
     elem.classList.toggle('none');
     elem.classList.toggle('inline');
   });
+  document.querySelectorAll('.instructors-button span').forEach((elem) => {
+    elem.classList.toggle('inline');
+    elem.classList.toggle('none');
+  });
   document.querySelectorAll('.toggle').forEach((elem) => {
     elem.classList.toggle('flex');
   });
