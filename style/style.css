@@ -483,19 +483,25 @@ footer div {
 .sec3-blog img {
   width: 100%;
   height: 200px;
-  filter: grayscale(100%);
-  filter: blur(8px);
   position: relative;
-  bottom: 35px;
+  z-index: -1;
+}
+.sec3-blog-img-1,
+.sec3-blog-img-2{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 200px;
+  background-image: linear-gradient(180deg, var(--orange), transparent);
 }
 
-.blog-img-2 {
+.sec3-blog-img-2 {
   position: relative !important;
   bottom: 70px !important;
 }
 
 .blog-title-1 {
-  transform: translateY(-35px);
+  transform: translateY(0px);
 }
 
 .blog-title-2 {
@@ -515,7 +521,7 @@ footer div {
 .sec3-blog span {
   font-size: 120%;
   font-weight: 900;
-  color: #ec5242;
+  color: white;
 }
 
 .blog-img-2::after {
@@ -838,7 +844,8 @@ footer div {
 
   .sec3-blog {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 50px;
   }
 
   .sec3-blog span {
@@ -849,8 +856,8 @@ footer div {
     bottom: 0;
   }
 
-  .blog-img-2,
-  .blog-img-1 {
+  .sec3-blog-img-2,
+  .sec3-blog-img-1 {
     bottom: 30px !important;
   }
 
@@ -920,23 +927,39 @@ footer div {
     display: grid !important;
     grid-template-columns: 2fr 3fr 1.5fr !important;
   }
-
-  /* END */
-}
-
-@media screen and (min-width: 1440px) {
-  .program-items-list :nth-child(5),
-  .program-items-list :nth-child(6) {
-    display: none !important;
-  }
-
   .program-items-list {
     justify-content: space-between !important;
     gap: 10px;
   }
+  /* END */
+}
+
+@media screen and (min-width: 1120px) {
+
+  .navBar {
+    display: grid !important;
+    grid-template-columns: 2fr 3fr 1.5fr !important;
+  }
+  .program-items-list {
+    justify-content: center !important;
+    gap: 8px;
+    margin: auto;
+  }
+
+  .program-items-list li{
+    width: 170px;
+    height: 170px;
+  }
+  .program-items-list :nth-child(6){
+    display: none;
+  }
+  /* END */
+}
+
+@media screen and (min-width: 1440px) {
+  
 
   .hero-wrapper,
-  .program-items-list,
   .featured-instructors-list {
     margin: 0 23vh !important;
   }
@@ -951,7 +974,7 @@ footer div {
   /* Section 3 */
   .sec3-blog {
     justify-content: center;
-    gap: 60px;
+    gap: 50px;
   }
 
   /* END */
