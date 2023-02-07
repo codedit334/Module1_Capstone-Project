@@ -41,12 +41,15 @@ nav > img {
 nav > ul {
   list-style: none;
 }
+
 .pre-navBar {
   display: none !important;
 }
+
 .nav-button {
   display: none;
 }
+
 .menu {
   position: fixed;
   z-index: 5000;
@@ -347,6 +350,7 @@ footer {
   font-weight: 500;
   font-size: 100%;
 }
+
 footer div {
   width: 43%;
   margin: auto;
@@ -402,6 +406,7 @@ footer div {
   align-items: center;
   padding-bottom: 20px;
 }
+
 .sec1-pt3 p {
   text-align: center;
 }
@@ -601,6 +606,7 @@ footer div {
     display: flex !important;
     justify-content: flex-end;
   }
+
   .pre-navBar ul {
     display: flex;
     align-items: center;
@@ -613,6 +619,7 @@ footer div {
   .pre-navBar img {
     width: 22px;
   }
+
   .navBar {
     position: absolute;
     top: 0;
@@ -677,6 +684,7 @@ footer div {
   .x {
     display: none !important;
   }
+
   .home {
     display: none !important;
   }
@@ -811,18 +819,7 @@ footer div {
     text-align: center;
   }
 
-  .sec1-pt2 :nth-child(1),
-  .sec1-pt2 :nth-child(2),
-  .sec1-pt2 :nth-child(3) {
-    display: block;
-    margin: 0;
-    padding: 0;
-  }
-
   /* Section 2 */
-  .sec2-pt2 :nth-child(3) {
-    display: block;
-  }
 
   .sec2-pt2 p {
     width: 70%;
@@ -838,6 +835,7 @@ footer div {
   #sec3 {
     padding-bottom: 80px;
   }
+
   .sec3-blog {
     display: flex;
     justify-content: space-around;
@@ -875,25 +873,41 @@ footer div {
     font-size: 120%;
     padding-bottom: 0;
   }
+
   footer div {
     width: 80%;
   }
+
   .hide-span {
     display: inline !important;
   }
+
   footer :nth-child(1) {
     display: flex;
     justify-content: flex-end;
   }
+
   footer :nth-child(2) {
     margin-left: 40px;
   }
+
   .footer-index {
     background-color: rgb(228, 228, 228);
     color: var(--dark);
   }
-  .footer-about {
+
+  .sec1-pt2 :nth-child(1),
+  .sec1-pt2 :nth-child(2),
+  .sec1-pt2 :nth-child(3) {
+    display: block;
+    margin: 0;
+    padding: 0;
   }
+
+  .sec2-pt2 :nth-child(3) {
+    display: block;
+  }
+
   /* END */
 }
 
@@ -901,10 +915,12 @@ footer div {
   .program-items-list {
     justify-content: space-between;
   }
+
   .navBar {
     display: grid !important;
     grid-template-columns: 2fr 3fr 1.5fr !important;
   }
+
   /* END */
 }
 
