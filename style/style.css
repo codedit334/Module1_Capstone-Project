@@ -619,7 +619,7 @@ footer div {
     align-items: center;
     list-style: none;
     gap: 15px;
-    margin-right: 15px;
+    margin-right: 5vw;
     font-weight: 400;
   }
 
@@ -923,6 +923,16 @@ footer div {
   .navBar {
     display: grid !important;
     grid-template-columns: 2fr 3fr 1.5fr !important;
+  }
+
+  .nav-button {
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .nav-button button{
+    margin-right: 5vw;
   }
 
   .program-items-list {
